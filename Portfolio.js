@@ -14,7 +14,6 @@ function openTab(id) {
 }
 
 
-
 window.onload = () => {
     const statusElement = document.getElementById('status-update');
     if (statusElement) {
