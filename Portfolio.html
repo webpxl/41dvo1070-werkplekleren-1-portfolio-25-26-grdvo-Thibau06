@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thibau Claessens | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Portfolio.css">
+    <script defer src="Portfolio.js"></script>
+</head>
+<body>
+
+<aside class="sidebar">
+    <header class="brand">
+        <div class="logo-box">TC</div>
+        <h1>Thibau</h1>
+        <p>Digital Designer</p>
+    </header>
+    <nav class="nav-menu">
+        <button onclick="openTab('home')" id="tab-home-btn" class="nav-btn active">01 Home & Intro</button>
+        <button onclick="openTab('projects')" id="tab-projects-btn" class="nav-btn">02 Projecten</button>
+        <button onclick="openTab('loopbaan')" id="tab-loopbaan-btn" class="nav-btn">03 Loopbaan & Stages</button>
+        <button onclick="openTab('skills')" id="tab-skills-btn" class="nav-btn">04 Skills & Profiel</button>
+        <button onclick="openTab('dvo')" id="tab-dvo-btn" class="nav-btn">05 DVO Rollen</button>
+    </nav>
+    <div class="sidebar-footer">
+        <div class="special-status">
+            <span id="live-clock">Status: Online</span>
+        </div>
+        <p>PXL Hasselt 2026</p>
+    </div>
+</aside>
+
+<main class="main-viewport">
+
+    <div class="personal-card shadow-glow">
+        <div class="info-group">
+            <span class="label">Identiteit</span>
+            <p><strong>Thibau Claessens</strong></p>
+            <p>11 april 2006 (Bree)</p>
+        </div>
+        <div class="info-group">
+            <span class="label">Contact</span>
+            <p>thibauclaessens@gmail.com</p>
+            <p>12503348@student.pxl.be</p>
+        </div>
+        <div class="info-group">
+            <span class="label">GSM & Locatie</span>
+            <p>0468 21 34 98</p>
+            <p>Maaseik, BE</p>
+        </div>
+    </div>
+
+    <section id="home" class="page active">
+        <h2 class="hero-title">THIBAU<span>CLAESSENS</span></h2>
+
+        <div class="grid-2" style="margin-bottom: 25px;">
+            <div class="card">
+                <h3>Mijn Motivatie</h3>
+                <p>Ik heb voor Digitale Vormgeving gekozen omdat ik geboeid ben door de combinatie van design en techniek. Ik volg trends op social media nauwgezet en heb oog voor visuele hiërarchie.</p>
+            </div>
+            <div class="card">
+                <h3>Waarom PXL?</h3>
+                <p>Ik wil mijn creatieve passie professionaliseren en leren hoe ik functionele digitale oplossingen bouw die er ook goed uitzien.</p>
+            </div>
+        </div>
+
+        <div class="grid-3">
+            <div class="card hobby-card">
+                <span class="hobby-icon">⚽</span>
+                <h3>Voetbal</h3>
+                <p>Liefhebber en speler. Teamspirit en doorzettingsvermogen.</p>
+            </div>
+            <div class="card hobby-card">
+                <span class="hobby-icon">🎮</span>
+                <h3>Gaming</h3>
+                <p>Focus, snelle reactie en strategisch inzicht.</p>
+            </div>
+            <div class="card hobby-card">
+                <span class="hobby-icon">📱</span>
+                <h3>Social Media</h3>
+                <p>Op de hoogte van de nieuwste trends en digitale interactie.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="page">
+        <h2 class="section-tag">Mijn Projecten</h2>
+        <div class="grid-2">
+            <article class="card project-card">
+                <img src="cv-project.png" alt="Mijn CV Dashboard" class="project-img">
+                <h3>CV Dashboard Ontwerp</h3>
+                <p><strong>Datum:</strong> 2025</p>
+                <p><strong>Vak:</strong> Design Basics</p>
+                <p>Voor dit schoolproject ontwierp ik een dashboard waarin mijn loopbaan en vaardigheden visueel zijn weergegeven. Ik leerde hoe ik complexe informatie overzichtelijk kan indelen.</p>
+                <div class="tag-container"><span class="tag">UI Design</span><span class="tag">Dashboard</span></div>
+            </article>
+
+            <article class="card project-card">
+                <img src="aviva-project.png" alt="Oefenfirma Aviva Mosa-RT" class="project-img">
+                <h3>Oefenfirma Aviva</h3>
+                <p><strong>Datum:</strong> 14 november 2024</p>
+                <p><strong>School:</strong> Mosa-RT Maaseik (7de jaar)</p>
+                <p>In het 7de jaar openden we de deuren van Aviva. Deze oefenfirma verkoopt wijnboxen en accessoires. Ik was verantwoordelijk voor de administratie en gegevensbeheer van dit virtuele bedrijf.</p>
+                <div class="tag-container"><span class="tag">Administratie</span><span class="tag">Oefenfirma</span></div>
+            </article>
+        </div>
+    </section>
+
+    <section id="loopbaan" class="page">
+        <h2 class="section-tag">Traject & Historiek</h2>
+        <div class="grid-2">
+            <div class="card timeline-card">
+                <h3>Werkervaring & Stages</h3>
+                <div class="entry"><span>'25 - NU</span><strong>De Wingerd</strong> <p>Vakantiewerk</p></div>
+                <div class="entry"><span>'24 - '25</span><strong>Stad Bree</strong> <p>Stage Techn. Dienst</p></div>
+                <div class="entry"><span>'24 - '25</span><strong>Maas en Kempen</strong> <p>Vakantiewerk</p></div>
+                <div class="entry"><span>'23 - '24</span><strong>Kruidvat</strong> <p>Stage</p></div>
+                <div class="entry"><span>'22 - '23</span><strong>Albert Heijn / Carrefour</strong> <p>Stage & Werk</p></div>
+            </div>
+            <div class="card timeline-card">
+                <h3>Onderwijs</h3>
+                <div class="entry"><span>'25 - NU</span><strong>PXL Hasselt</strong> <p>Digitale Vormgeving</p></div>
+                <div class="entry"><span>'24 - '25</span><strong>Mosa-RT</strong> <p>Kantoor (7de jaar)</p></div>
+                <div class="entry"><span>'21 - '24</span><strong>Sint-Jansberg</strong> <p>Kantoor</p></div>
+                <div class="entry"><span>'18 - '21</span><strong>Mosa-RT</strong> <p>Sport / Voeding</p></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="page">
+        <h2 class="section-tag">Kwaliteiten & Vaardigheden</h2>
+        <div class="grid-2">
+            <div class="card">
+                <h3>Soft Skills</h3>
+                <ul class="check-list">
+                    <li>Stiptheid & Betrouwbaarheid</li>
+                    <li>Vriendelijk & Beleefd</li>
+                    <li>Focus op resultaat</li>
+                    <li>Zelfstandig werken</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3>Praktisch</h3>
+                <ul class="check-list">
+                    <li>Laptop beheer & Administratie</li>
+                    <li>Poetsen & Hygiëne</li>
+                    <li>Rekken vullen & Logistiek</li>
+                </ul>
+            </div>
+            <div class="card full-width">
+                <h3>Software Beheersing</h3>
+                <div class="skill-item">Microsoft Word <div class="bar"><div class="fill" style="width:55%"></div><span class="perc">55%</span></div></div>
+                <div class="skill-item">Microsoft PowerPoint <div class="bar"><div class="fill" style="width:50%"></div><span class="perc">50%</span></div></div>
+                <div class="skill-item">Microsoft Excel <div class="bar"><div class="fill" style="width:42%"></div><span class="perc">42%</span></div></div>
+                <div class="skill-item">Digital Design <div class="bar"><div class="fill" style="width:15%"></div><span class="perc">15%</span></div></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="dvo" class="page">
+        <h2 class="section-tag">PXL Competenties</h2>
+        <div class="grid-2">
+            <div class="dvo-card"><div class="olr-badge">OLR 2</div><h4>Vormgever</h4><p>Creatieve realisatie van visuele assets.</p></div>
+            <div class="dvo-card"><div class="olr-badge">OLR 6</div><h4>Developer</h4><p>Projectmatig werken aan oplossingen.</p></div>
+            <div class="dvo-card"><div class="olr-badge">OLR 8</div><h4>Communicator</h4><p>Professionele rapportering.</p></div>
+            <div class="dvo-card"><div class="olr-badge">OLR 10</div><h4>Lerende</h4><p>Kritisch reflecteren op groei.</p></div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Thibau Claessens | <a href="privacy.txt" style="color: var(--green); text-decoration: none;">Privacy-richtlijnen</a></p>
+    </footer>
+</main>
+
+</body>
+</html>
